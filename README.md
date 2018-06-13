@@ -34,7 +34,7 @@ make
 ./Power\ 4 7 7
 ````
 
-![alt text](![alt text](https://github.com/DA-NDI/Rushes-group-projects-/blob/master/Screenshots/power_1.png))
+![alt text](https://github.com/DA-NDI/Rushes-group-projects-/blob/master/Screenshots/power_1.png)
 
 ## hotrace
 
@@ -42,7 +42,7 @@ implementation of very quick read and search. Hashtables (using jenkins alghorit
 
 Got highest mark (mark depends on how quick your  programm performs)
 
-![alt text](![alt text](https://github.com/DA-NDI/Rushes-group-projects-/blob/master/Screenshots/hotrace.png))
+![alt text](https://github.com/DA-NDI/Rushes-group-projects-/blob/master/Screenshots/hotrace.png)
 
 ## lldb
 
