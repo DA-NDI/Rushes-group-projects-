@@ -1,0 +1,14 @@
+breakpoint set main -l 16 -i 1
+breakpoint set main -l 19 -o
+breakpoint set main -l 32 -c 'tmp = min[0] + min[1] + min[2]'
+breakpoint set main -l 44 -c 'biggest = min[0] > min[1] ? min[0] > min[2] ? min[0] : min[2] : min[1] > min[2] ? min[1] : min[2]'
+r
+expr tab[0] = tab[1]
+c
+expr tab[2] = tab[1]
+c
+expr count = 0
+c
+c
+c
+c

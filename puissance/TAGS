@@ -1,0 +1,65 @@
+
+check_win.c,281
+#define ROWS 14,915
+#define COLS 15,939
+#define Y 16,966
+#define X 17,984
+#define GRID 18,1002
+#define PLAYER 19,1026
+static int	check_hor(21,1055
+static int	check_ver(46,1360
+static int	check_diag(71,1665
+static int	check_mirror_diag(96,2013
+int			num_mutches(122,2371
+
+play.c,71
+#define COLS 14,915
+static	void	set_item(16,943
+int				play(41,1305
+
+play2.c,247
+#define MAP 14,915
+#define COLS 15,938
+#define ROWS 16,965
+#define Y 17,989
+#define X 18,1007
+static int	set_item(20,1026
+static	int	check_win_c(42,1330
+static	int	check_win(52,1478
+static	int	check_position(81,1920
+int			play2(105,2375
+
+print.c,136
+#define HEIGHT 15,916
+#define WIDTH 16,942
+#define GREEN 17,970
+#define RED 18,995
+#define END 19,1018
+void		ft_print_map(21,1041
+
+puissance.c,211
+#define HEIGHT 15,916
+#define WIDTH 16,942
+t_game			*ft_init(ft_init18,971
+static	int		ft_put_last(30,1147
+static	char	**ft_create_grid(ft_create_grid56,1525
+int				ft_move(85,2059
+int				main(110,2437
+
+valid.c,46
+int			only_digit(15,916
+int			valid(26,1031
+
+puissance.h,275
+# define PUISSANCE_H14,912
+typedef struct	s_game23,1068
+	int			rows;25,1092
+	int			columns;26,1105
+	int			x;27,1121
+	int			y;28,1131
+	char		player;29,1141
+	char		**grid;grid30,1156
+	char		mutch;31,1171
+	int			count;32,1185
+	int			mch;33,1199
+}				t_game;34,1211

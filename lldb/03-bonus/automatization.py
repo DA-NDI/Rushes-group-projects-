@@ -1,0 +1,38 @@
+import lldb
+import time
+
+def start(debugger, command, result, internal_dict):
+        args = command.split(" ")
+        debugger.SetAsync(True)
+        debugger.HandleCommand("breakpoint set main -l 16 -i 1")
+        debugger.HandleCommand("breakpoint set main -l 19 -o")
+        debugger.HandleCommand("breakpoint set main -l 32 -c 'tmp = min[0] + min[1] + min[2]'")
+        debugger.HandleCommand("breakpoint set main -l 44 -c 'biggest = min[0] > min[1] ? min[0] > min[2] ? min[0] : min[2] : min[1] > min[2] ? min[1] : min[2]'")
+        debugger.HandleCommand("r")
+        time.sleep(1)
+        debugger.GetSelectedTarget().GetProcess().PutSTDIN(args[0] + '\n')
+        time.sleep(1)
+        debugger.HandleCommand("expr tab[0] = tab[1]")
+        time.sleep(1)
+        debugger.HandleCommand("c")
+        time.sleep(1)
+        debugger.GetSelectedTarget().GetProcess().PutSTDIN(args[1] + '\n')
+        time.sleep(1)
+        debugger.HandleCommand("expr tab[2] = tab[1]")
+        time.sleep(1)
+        debugger.HandleCommand("c")
+        time.sleep(1)
+        debugger.GetSelectedTarget().GetProcess().PutSTDIN(args[2] + '\n')
+        time.sleep(1)
+        debugger.HandleCommand("expr count = 0")
+        time.sleep(1)
+        debugger.HandleCommand("c")
+        time.sleep(1)
+        debugger.HandleCommand("c")
+        time.sleep(1)
+        debugger.HandleCommand("c")
+        time.sleep(1)
+        debugger.HandleCommand("c")
+        
+def __lldb_init_module(debugger, internal_dict):
+         debugger.HandleCommand('command script add -f automatization.start start')

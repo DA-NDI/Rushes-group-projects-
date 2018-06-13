@@ -1,0 +1,15 @@
+settings set prompt "(avolgin)"
+settings set target.x86-disassembly-flavor intel
+script print "\033[31m"
+script print "  ▄▄▄    ██▒   █▓ ▒█████   ██▓      ▄████  ██▓ ███▄    █ "
+script print " ▒████▄ ▓██░   █▒▒██▒  ██▒▓██▒     ██▒ ▀█▒▓██▒ ██ ▀█   █ "
+script print " ▒██  ▀█▄▓██  █▒░▒██░  ██▒▒██░    ▒██░▄▄▄░▒██▒▓██  ▀█ ██▒"
+script print " ░██▄▄▄▄██▒██ █░░▒██   ██░▒██░    ░▓█  ██▓░██░▓██▒  ▐▌██▒"
+script print "  ▓█   ▓██▒▒▀█░  ░ ████▓▒░░██████▒░▒▓███▀▒░██░▒██░   ▓██░"
+script print "  ▒▒   ▓▒█░░ ▐░  ░ ▒░▒░▒░ ░ ▒░▓  ░ ░▒   ▒ ░▓  ░ ▒░   ▒ ▒ "
+script print "   ▒   ▒▒ ░░ ░░    ░ ▒ ▒░ ░ ░ ▒  ░  ░   ░  ▒ ░░ ░░   ░ ▒░"
+script print "   ░   ▒     ░░  ░ ░ ░ ▒    ░ ░   ░ ░   ░  ▒ ░   ░   ░ ░ "
+script print "       ░  ░   ░      ░ ░      ░  ░      ░  ░           ░ "
+script print "             ░ \033[0m"
+command script import ~/Rushes/lldb/03-bonus/color.py
+command script import ~/Rushes/lldb/02-script/reverse.py
