@@ -18,7 +18,8 @@ Usage: client <server_pid> <message>
 For ex:
 ./client 9000 'Hello!'
 ````
-![alt text](https://github.com/DA-NDI/fdf/blob/master/Screenshots/4.png)
+![alt text](https://github.com/DA-NDI/Rushes-group-projects-/blob/master/Screenshots/minitalk_1.png)
+![alt text](https://github.com/DA-NDI/Rushes-group-projects-/blob/master/Screenshots/minitalk_2.png)
 
 ## puissance
 
@@ -32,7 +33,7 @@ make
 ./Power\ 4 7 7
 ````
 
-![alt text](https://github.com/DA-NDI/fdf/blob/master/Screenshots/4.png)
+![alt text](![alt text](https://github.com/DA-NDI/Rushes-group-projects-/blob/master/Screenshots/power_1.png))
 
 ## hotrace
 
@@ -40,12 +41,12 @@ implementation of very quick read and search. Hashtables (using jenkins alghorit
 
 Got highest mark (mark depends on how quick your  programm performs)
 
-![alt text](https://github.com/DA-NDI/fdf/blob/master/Screenshots/4.png)
+![alt text](![alt text](https://github.com/DA-NDI/Rushes-group-projects-/blob/master/Screenshots/hotrace.png))
 
 ## lldb
 
 configuration of lldb debugger, creating useful functions (in python) and automatization.
 
-![alt text](https://github.com/DA-NDI/fdf/blob/master/Screenshots/4.png)
+![alt text](![alt text](https://github.com/DA-NDI/Rushes-group-projects-/blob/master/Screenshots/lldb.png))
 
 
