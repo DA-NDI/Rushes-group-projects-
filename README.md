@@ -19,6 +19,7 @@ For ex:
 ./client 9000 'Hello!'
 ````
 ![alt text](https://github.com/DA-NDI/Rushes-group-projects-/blob/master/Screenshots/minitalk_1.png)
+
 ![alt text](https://github.com/DA-NDI/Rushes-group-projects-/blob/master/Screenshots/minitalk_2.png)
 
 ## puissance
@@ -47,6 +48,8 @@ Got highest mark (mark depends on how quick your  programm performs)
 
 configuration of lldb debugger, creating useful functions (in python) and automatization.
 
-![alt text](![alt text](https://github.com/DA-NDI/Rushes-group-projects-/blob/master/Screenshots/lldb.png))
+![alt text](https://github.com/DA-NDI/Rushes-group-projects-/blob/master/Screenshots/lldb.png)
+
+All tasks and corrections you can find in project's repo's.
 
 
