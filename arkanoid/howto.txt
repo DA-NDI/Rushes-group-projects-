@@ -1,3 +1,4 @@
 git submodule add https://github.com/glfw/glfw.git ./glfw //add git submodule
 to compile glfw lib:
 cd glfw && cmake . && cd src && make //cmake . will create makefile in glfw/src folder
+documentation https://www.glfw.org/documentation.htmlX
